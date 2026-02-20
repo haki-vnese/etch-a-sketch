@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.box {
+    box-sizing: border-box;
+    width: calc(100% / 16);
+    height: calc(100% / 16);
+    border: 1px solid blue;
+}
+
+button#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
